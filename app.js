@@ -96,7 +96,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Петропавловск-Камчатский",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -109,7 +109,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Владивосток",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -122,7 +122,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Якутск",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region1", text: "Подробнее 1" }
       },
       {
@@ -130,7 +130,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Среднеколымск, Якутск",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region1", text: "Подробнее 1" }
       }
     ]
@@ -143,7 +143,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Иркутск",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -156,7 +156,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Красноярск",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -164,7 +164,7 @@ const regionData = {
         type: "",
         name: "Международный Конгресс индустрии зимних видов спорта, туризма и активного отдыха",
         place: "Красноярск",
-        image: "/interact_map/img/winter.png",
+        image: "img/winter.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -177,7 +177,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Кемерово",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -185,7 +185,7 @@ const regionData = {
         type: "Всероссийский форум",
         name: "Вера и спорт",
         place: "Кемерово",
-        image: "/interact_map/img/vera.png",
+        image: "img/vera.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -198,7 +198,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Омск",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -211,7 +211,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Пермь",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -224,7 +224,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Ижевск",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -237,7 +237,7 @@ const regionData = {
         type: "",
         name: "Международный Конгресс индустрии зимних видов спорта, туризма и активного отдыха",
         place: "",
-        image: "/interact_map/img/winter.png",
+        image: "img/winter.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -245,7 +245,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Уфа",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -258,7 +258,7 @@ const regionData = {
         type: "",
         name: "Международный Конгресс индустрии зимних видов спорта, туризма и активного отдыха",
         place: "Санкт-Петербург",
-        image: "/interact_map/img/winter.png",
+        image: "img/winter.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -271,7 +271,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Калининград",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -284,7 +284,7 @@ const regionData = {
         type: "",
         name: "Международный Конгресс индустрии зимних видов спорта, туризма и активного отдыха",
         place: "Москва, Красногорск",
-        image: "/interact_map/img/winter.png",
+        image: "img/winter.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -292,7 +292,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Москва",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -300,7 +300,7 @@ const regionData = {
         type: "",
         name: "Всероссийский день ходьбы",
         place: "Москва",
-        image: "/interact_map/img/dh.png",
+        image: "img/dh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -308,7 +308,7 @@ const regionData = {
         type: "",
         name: "Национальная премия в области физической культуры и спорта",
         place: "Москва",
-        image: "/interact_map/img/premiya.png",
+        image: "img/premiya.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -316,7 +316,7 @@ const regionData = {
         type: "Конгрессно-выставочное мероприятие",
         name: "SPORTFORUMLIVE. Современный спорт. Инновации и перспективы",
         place: "Москва",
-        image: "/interact_map/img/sfl.png",
+        image: "img/sfl.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -324,7 +324,7 @@ const regionData = {
         type: "Конгрессно-выставочное мероприятие",
         name: "Мы вместе. Спорт",
         place: "Москва",
-        image: "/interact_map/img/mvs.png",
+        image: "img/mvs.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -332,7 +332,7 @@ const regionData = {
         type: "Первый Российско-китайский форум",
         name: "Здоровье, образ, жизнь",
         place: "Москва",
-        image: "/interact_map/img/zozh.png",
+        image: "img/zozh.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -340,7 +340,7 @@ const regionData = {
         type: "Экспозиция Минспорта России",
         name: "«Спорт для каждого»  в рамках Международной выставки-форума «Россия» на ВДНХ",
         place: "Москва",
-        image: "/interact_map/img/sdk.png",
+        image: "img/sdk.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -353,7 +353,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -366,7 +366,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Нижний Новгород",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -374,7 +374,7 @@ const regionData = {
         type: "II Всероссийский форум",
         name: "Вера и спорт",
         place: "Нижний Новгород",
-        image: "/interact_map/img/vera.png",
+        image: "img/vera.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -387,7 +387,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Чебоксары",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -400,7 +400,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Казань",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -408,7 +408,7 @@ const regionData = {
         type: "",
         name: "Международный Конгресс индустрии зимних видов спорта, туризма и активного отдыха",
         place: "Казань",
-        image: "/interact_map/img/winter.png",
+        image: "img/winter.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -416,7 +416,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Казань",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
 
       }
@@ -430,7 +430,7 @@ const regionData = {
         type: "Международная выставка",
         name: "Спортивная литература, пресса, мультимедиа",
         place: "Ульяновск",
-        image: "/interact_map/img/sport_lit.png",
+        image: "img/sport_lit.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -438,7 +438,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Ульяновск",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -451,7 +451,7 @@ const regionData = {
         type: "Международный спортивный форум",
         name: "Россия – спортивная держава",
         place: "Саранск",
-        image: "/interact_map/img/rsd.png",
+        image: "img/rsd.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
@@ -464,7 +464,7 @@ const regionData = {
         type: "",
         name: "Международный Конгресс индустрии зимних видов спорта, туризма и активного отдыха",
         place: "Сочи",
-        image: "/interact_map/img/winter.png",
+        image: "img/winter.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -472,7 +472,7 @@ const regionData = {
         type: "Форум",
         name: "Peace and sport",
         place: "Сочи",
-        image: "/interact_map/img/pas.png",
+        image: "img/pas.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       },
       {
@@ -480,7 +480,7 @@ const regionData = {
         type: "Международная конвенция",
         name: "СпортАккорд",
         place: "Сочи",
-        image: "/interact_map/img/accord.png",
+        image: "img/accord.png",
         // link: { href: "https://example.com/region2", text: "Подробнее 1" }
       }
     ]
