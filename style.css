@@ -1,0 +1,220 @@
+#map svg {
+    max-width: 100%;
+}
+
+#map svg path{
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.uncovered {
+    fill: #CFED00;
+}
+
+.covered {
+    fill: #851FFF;
+    transition: fill 1.2s ease;
+    cursor: pointer;
+}
+
+.covered:hover {
+    fill: #FF008F;
+}
+#map #territory path{
+    stroke-width: 1px;
+}
+.pulse-container {
+    display: none;
+}
+
+.pulse-ring {
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+    animation: pulse 1.5s infinite ease-out;
+    will-change: r, opacity;
+    opacity: 0;
+}
+
+@keyframes pulse {
+    0% {
+        r: 5;
+        opacity: 1;
+    }
+
+    100% {
+        r: 25;
+        opacity: 0;
+    }
+}
+
+.pulse-multiple .pulse-ring {
+    animation: pulse 1.5s infinite ease-out;
+}
+
+.pulse-multiple .pulse-ring:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.pulse-multiple .pulse-ring:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.pulse-multiple .pulse-ring:nth-child(3) {
+    animation-delay: 1s;
+}
+
+/* Попап */
+.popup {
+    font-family: Montserrat;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    width: 80%;
+    max-width: 700px;
+    background: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.5s ease, opacity 0.3s ease, visibility 0.3s;
+}
+
+.popup.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#popup-title{
+    color:#fff;
+    margin: -10px 0px 10px;
+}
+
+.popup p, h3 {
+    margin: 0;
+}
+.popup img {
+    width: 100px;
+    /* max-width: 100px; */
+    height: 100px;
+    border-radius: 8px;
+}
+
+.popup a {
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.popup-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popup-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+    transition: 0.8s ease;
+}
+.popup-item:hover {
+    background: #851FFF;
+    color: #fff;
+}
+.popup-item:active, .popup-item:focus, .popup-item:focus-visible{
+    background: #EC1164;
+    color: #fff;
+}
+.event-date{
+    padding-right: 15px;
+    border-right: 1px solid;
+    font-weight: 700;
+    width: 110px;
+}
+.event-description{
+    width: 340px;
+}
+
+.place{
+    padding-top: 15px;
+}
+.place:before{
+    content: 'Город: ';
+    font-weight: 600;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.popup-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.popup-navigation button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.popup-navigation button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Затенение фона при открытии окна */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s;
+}
+
+#overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+.tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    pointer-events: none;
+    display: none;
+    z-index: 1000;
+}
+.tooltip.visible {
+    display: block;
+}
+
